@@ -13,13 +13,14 @@ int main()
 			matriz [i][j]=0; 			
 
 
-
 		}else{
 			matriz [i][j]=1;
 
 
+
 		}
+		cout << "["<< matriz[i][j] << "]";
+
 	}
-	cout << "["<< matriz[i][j] << "]" endl;
+	cout << endl;
 	}
-}
